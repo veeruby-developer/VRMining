@@ -15,12 +15,12 @@ C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61602
+61621
 Successfully changed project path to: C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 422.38 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.80 ms.
+Refreshing native plugins compatible for Editor in 78.71 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project/Assets
@@ -36,99 +36,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004704 seconds.
+Registered in 0.001230 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.87 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 1.58 ms.
+Refreshing native plugins compatible for Editor in 77.83 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.545 seconds
+- Completed reload, in  0.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (545ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (491ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (185ms)
+			SetupLoadedEditorAssemblies (174ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011518 seconds.
+Registered in 0.003870 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ithel\Documents\GitHub\VRMining\VRMining Project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 166.70 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 75.04 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.76.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.831 seconds
+- Completed reload, in  0.973 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1833ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1550ms)
-			LoadAssemblies (196ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (711ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 4214 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 184.7 MB.
 System memory in use after: 184.9 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4625.
-Total: 7.178900 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.348600 ms MarkObjects: 6.125300 ms  DeleteObjects: 0.180000 ms)
+Total: 2.973600 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.428300 ms  DeleteObjects: 0.118100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -143,6 +143,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.046265 seconds 
+  path: Assets/Scenes
+  artifactKey: Guid(4a370d2cc2e212e45ae72a43540b5181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4a370d2cc2e212e45ae72a43540b5181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db65da6cb9bbfc5d32f55e3da024b40') in 0.010128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/OpenCastMining.unity
+  artifactKey: Guid(ee6b1a559dec05f4faa2008e082485e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OpenCastMining.unity using Guid(ee6b1a559dec05f4faa2008e082485e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1be3634c1a0451f0a29dd9cf4c6baf') in 0.005247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.763056 seconds.
+  path: Assets/Models/mining_Area (1).fbx
+  artifactKey: Guid(8162c729e5ce4b74e831b06766abc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mining_Area (1).fbx using Guid(8162c729e5ce4b74e831b06766abc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ad7a7617a842f11c93235e5327f111') in 0.614302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Sign_Board_Yellow.fbx
+  artifactKey: Guid(34b9725813fc14e43bf7171b46887d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sign_Board_Yellow.fbx using Guid(34b9725813fc14e43bf7171b46887d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e1312268ab6a98345f5bc1ab649f75') in 0.137412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/Underground Mine Entry 1.fbx
+  artifactKey: Guid(6eebacdf1ffa29447aa3526041ec4489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground Mine Entry 1.fbx using Guid(6eebacdf1ffa29447aa3526041ec4489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a166402b012daa0887cd1956b63e2528') in 0.057225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Models/mining_Area.fbx
+  artifactKey: Guid(deb459e91f89681468f3e7002c161116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mining_Area.fbx using Guid(deb459e91f89681468f3e7002c161116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4fffe9b2cb12575a17e290571e9fe5') in 0.237223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Models/Sign_Board.fbx
+  artifactKey: Guid(b42662dd823c1c94fb52295b4c245821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sign_Board.fbx using Guid(b42662dd823c1c94fb52295b4c245821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34797d0655a173653b0c010348ff2283') in 0.533158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.448437 seconds.
+  path: Assets/Models/Sign.fbx
+  artifactKey: Guid(ef08a0f8825774745837c6ac5142baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sign.fbx using Guid(ef08a0f8825774745837c6ac5142baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac87f7d3782a78a085348e9eb5169089') in 0.381486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.946979 seconds.
+  path: Assets/Models/MicrosoftTeams-image.png
+  artifactKey: Guid(c1fe758dd227ee04f98fc70b783d86a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MicrosoftTeams-image.png using Guid(c1fe758dd227ee04f98fc70b783d86a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbec5c7c2905e19125bfeb2097451eff') in 0.029992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.318329 seconds.
+  path: Assets/Models/Quiz_Board.fbx
+  artifactKey: Guid(f2df12e071c76104091f450dd6bdd95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Quiz_Board.fbx using Guid(f2df12e071c76104091f450dd6bdd95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57672fc50c76c6e72953cd69d86457ba') in 0.186007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.959685 seconds.
+  path: Assets/Models/MicrosoftTeams-image (2).png
+  artifactKey: Guid(91c05b2cff30d554f91859cd791881f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MicrosoftTeams-image (2).png using Guid(91c05b2cff30d554f91859cd791881f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2bb3e0e0769b43a0f65def78dba8a') in 0.020704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.231042 seconds.
+  path: Assets/Models/Texture
+  artifactKey: Guid(c4f081df04eaed84680906cca6b75d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture using Guid(c4f081df04eaed84680906cca6b75d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af1df560df12615fdad0800e864b639') in 0.004996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037102 seconds.
+  path: Assets/Models/Texture/Mining_Area.jpg
+  artifactKey: Guid(571cf7c5dc786d64ea35b756bb01369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Mining_Area.jpg using Guid(571cf7c5dc786d64ea35b756bb01369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c93103040c0e4488edf97f7cd5f371') in 0.047399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.354959 seconds.
+  path: Assets/Models/Materials/Blue.mat
+  artifactKey: Guid(523245b714a28b24893f58c047c61964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Blue.mat using Guid(523245b714a28b24893f58c047c61964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae1c5b2459f4c4ae1f4da1a2860810') in 0.017852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/Materials/Mining Area.mat
+  artifactKey: Guid(bca1423d9f321ae46b1ec1ced306ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Mining Area.mat using Guid(bca1423d9f321ae46b1ec1ced306ab54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2442fdae4adbdf04a74227750426b5c') in 0.043668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/Materials/Underground Mine Entry.mat
+  artifactKey: Guid(bcf6bb47fe1f7164e94d75210b37a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Underground Mine Entry.mat using Guid(bcf6bb47fe1f7164e94d75210b37a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44636ceeaaf4e6874df770b4bf7edfb') in 0.026414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Materials/Skybox.mat
+  artifactKey: Guid(91b0402b4577595429a6257c3b48b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Skybox.mat using Guid(91b0402b4577595429a6257c3b48b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee116f3bc778a53b30d552d6cf9e44d8') in 0.024169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/Materials/typeBlinn.mat
+  artifactKey: Guid(05ba8fc614472d04cb462174e94e4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/typeBlinn.mat using Guid(05ba8fc614472d04cb462174e94e4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3132b38588e49814a32ec518521f8a4') in 0.014721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/Materials/White.mat
+  artifactKey: Guid(6bc0d02368deb7c4bbcc4b871261120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/White.mat using Guid(6bc0d02368deb7c4bbcc4b871261120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377776ae69559d377a0b1f0412643e61') in 0.014282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/Materials/Yellow.mat
+  artifactKey: Guid(d8bb6ff2e7ed73a4bb8bc23ba5a6f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Yellow.mat using Guid(d8bb6ff2e7ed73a4bb8bc23ba5a6f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd594614f051c91ba9884a7f7984ba1be') in 0.023760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 244.574509 seconds.
+  path: Assets/Models/Texture/clarens_midday_8k.exr
+  artifactKey: Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/clarens_midday_8k.exr using Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a824148f7415e3d37f764010c6e6d53') in 0.012671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.600501 seconds.
+  path: Assets/Models/Texture/clarens_midday_8k.exr
+  artifactKey: Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/clarens_midday_8k.exr using Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d7fe22c5bd857e877b38abbb486ce7') in 0.002716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.722647 seconds.
+  path: Assets/Models/Texture/clarens_midday_8k.exr
+  artifactKey: Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/clarens_midday_8k.exr using Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8ef0a9234a0469a5de907569c9e7ad') in 0.061788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.781981 seconds.
+  path: Assets/Models/Texture/clarens_midday_8k.exr
+  artifactKey: Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/clarens_midday_8k.exr using Guid(5512dabc32386d541b31f660d2685a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d6d6d43914bb7b991335048578a186') in 1.475343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.743121 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/StartScene/Textures/BlackCubemap.png
+  artifactKey: Guid(b40a1cb5f1124ec489cc1e7a533e46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/StartScene/Textures/BlackCubemap.png using Guid(b40a1cb5f1124ec489cc1e7a533e46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362b03ec4c9b66f0f621ac44a156ccbe') in 0.036804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox01_openGL.png
+  artifactKey: Guid(688075b2003a4474b8a0ea4e06e06b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox01_openGL.png using Guid(688075b2003a4474b8a0ea4e06e06b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ecbd1ba681cd74e14838836541a90c') in 0.042430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-0.png
+  artifactKey: Guid(1886a7586ae500c439dc72de669677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-0.png using Guid(1886a7586ae500c439dc72de669677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805d717889f9d86954e2727ee98f045c') in 0.040518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/CustomHands/ReflectionProbe-0.exr
+  artifactKey: Guid(0a345497283889f49b7c8637c2b84cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/CustomHands/ReflectionProbe-0.exr using Guid(0a345497283889f49b7c8637c2b84cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34206002e1090e8f07fed60e2b0f4b7') in 0.028310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-1.exr
+  artifactKey: Guid(f8df8e5711b9a5c42b44b6d9ad14c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-1.exr using Guid(f8df8e5711b9a5c42b44b6d9ad14c897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfb919cbc7dce27f778d38636de849f') in 0.032369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Oculus/Interaction/Samples/ThirdParty/Textures/EnvironmentMaps/photo_studio_broadway_hall_1k.exr
+  artifactKey: Guid(02087f394db194f44b28f48e3a72c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/ThirdParty/Textures/EnvironmentMaps/photo_studio_broadway_hall_1k.exr using Guid(02087f394db194f44b28f48e3a72c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a78332730d6e38ad812d31346ba568') in 0.029573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png
+  artifactKey: Guid(07664bb37bf9e46daae750bb6d5ad790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png using Guid(07664bb37bf9e46daae750bb6d5ad790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd477ea55af9072e31af0854104517b47') in 0.039203 seconds 
