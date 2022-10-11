@@ -6,11 +6,14 @@ public class CameraPositionScript : MonoBehaviour
 {
     public GameObject welcomeCanvas;
     GameObject benchHighlight;
+    GameObject crestHighlight;
     // Start is called before the first frame update
     void Start()
     {
-        benchHighlight = GameObject.FindGameObjectWithTag("Bench");
-        benchHighlight.SetActive(true);
+        benchHighlight = GameObject.Find("Bench");
+        benchHighlight.SetActive(false);
+        crestHighlight = GameObject.Find("Crest");
+        crestHighlight.SetActive(false);
     }
 
     // Update is called once per frame
@@ -54,18 +57,20 @@ public class CameraPositionScript : MonoBehaviour
         Debug.Log("bench");
         yield return new WaitForSeconds(5);
         
-        //benchHighlight.SetActive(true);
+        benchHighlight.SetActive(true);
         //Debug.Log("b");
         gameObject.SetActive(false);
         Vector3 pos = new Vector3(-46.6f, 17.11f, -15f);
         gameObject.transform.position = pos;
         gameObject.SetActive(true);
+        
         StartCoroutine(Crest());
     }
     IEnumerator Crest()
     {
+        
         yield return new WaitForSeconds(5);
-        GameObject highlight = GameObject.FindGameObjectWithTag("Crest");
-        highlight.SetActive(true);
+        benchHighlight.SetActive(false);
+        crestHighlight.SetActive(true);
     }
 }
