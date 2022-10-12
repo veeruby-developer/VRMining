@@ -5,21 +5,32 @@ using UnityEngine;
 public class CameraPositionScript : MonoBehaviour
 {
     public GameObject welcomeCanvas,prosNconsCanvas;
+    public AudioSource audioSource;
     GameObject benchHighlight;
     GameObject crestHighlight,toeHighlight,benchfaceHighlight,benchfloorHighlight,haulHighlight,rampHighlight,orebodyHighlight;
-    AudioSource audioSource;
-    public AudioClip[] clips;
+    AudioSource defaultAudioSource;
+    AudioClip[] clips = new AudioClip[10];
     public AudioClip defaultClip;
     int clipIndex;
 
     // Assigning declared objects
     void Start()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
-        audioSource.clip = defaultClip;
-        audioSource.Play();
+        for(int i = 0; i<=9; i++)
+        {
+            
+                clips[i] = Resources.Load<AudioClip>("Audio Files/Walkthroughs/Opencast Mine/Opencast_" + i);
+            Debug.Log(clips[i].name);
 
-        benchHighlight = GameObject.Find("Bench");
+        }
+
+        //audioSource = GameObject.Find("Hindi Audio Source ").GetComponent<AudioSource>();
+
+        defaultAudioSource = gameObject.GetComponent<AudioSource>();
+        defaultAudioSource.clip = defaultClip;
+        defaultAudioSource.Play();
+
+        benchHighlight = GameObject.Find("Mining_Bench_High");
         benchHighlight.SetActive(false);
 
         crestHighlight = GameObject.Find("Crest");
@@ -65,9 +76,14 @@ public class CameraPositionScript : MonoBehaviour
         gameObject.GetComponent<CharacterController>().enabled = false;
         gameObject.SetActive(true);
         welcomeCanvas.SetActive(true);
-        audioSource.clip = clips[clipIndex];
-        AudioChange();
         audioSource.Play();
+        audioSource.clip = clips[clipIndex];
+        Debug.Log(clipIndex);
+
+        clipIndex++;
+        
+
+        defaultAudioSource.volume = 0.5f;
         StartCoroutine(WelcomeCanvasOff());
         
     }
