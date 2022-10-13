@@ -232,37 +232,115 @@ public class CameraPositionScript : MonoBehaviour
     //Underground Metal Mine
      public void MetalMineCaveFrontPos()
     {
-    
-        gameObject.SetActive(false);
-        Vector3 pos = new Vector3(48.89f, -10.39f, -24.58f);
-        gameObject.transform.position = pos;
-        gameObject.transform.Rotate(0, 106.88f, 0);
-        gameObject.SetActive(true);
+      
         StartCoroutine(MetalMineWelcomeCanvasOff());
         
     }
 
     IEnumerator MetalMineWelcomeCanvasOff()
     {
+        yield return new WaitForSeconds(10);
+        MetalMinewelcomeCanvas.SetActive(false);
+        StartCoroutine(Adit());
+    }
+
+    IEnumerator Adit()
+    {
         yield return new WaitForSeconds(5);
-        welcomeCanvas.SetActive(false);
+        AudioChange();
+        audioSource.Play();
+        aditHighlight.SetActive(true);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(54.77f, -12.68f, -27.4f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(MineRailway());
+    }
+
+     IEnumerator MineRailway()
+    {
+        aditHighlight.SetActive(false);
+        Debug.Log("MineRailway");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        minerailwayHighlight.SetActive(true);
+        //Debug.Log("b");
+        StartCoroutine( BackFill());
+    }
+
+    IEnumerator BackFill()
+    {
+        minerailwayHighlight.SetActive(false);
+        Debug.Log("BackFill");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        backfillHighlight.SetActive(true);
+        //Debug.Log("b");
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(87.17f, -12.36f, -46.79f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(Trolley());
+    }
+
+    IEnumerator Trolley()
+    {
+        backfillHighlight.SetActive(false);
+        Debug.Log("Trolley");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        trolleyHighlight.SetActive(true);
+        StartCoroutine(Explosive());
+    }
+
+    IEnumerator Explosive()
+    {
+        trolleyHighlight.SetActive(false);
+        Debug.Log("Explosive");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        explosiveHighlight.SetActive(true);
+        StartCoroutine(Deposit());
+    }
+
+     IEnumerator Deposit()
+    {
+        explosiveHighlight.SetActive(false);
+        Debug.Log("Deposit");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        depositHighlight.SetActive(true);
+        //Debug.Log("b");
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(-97.2f, -12.1f, -53.6f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
         StartCoroutine(Cage());
     }
 
+
     IEnumerator Cage()
     {
+        depositHighlight.SetActive(false);
         Debug.Log("Cage");
         yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        benchHighlight.SetActive(true);
-        //Debug.Log("b");
-        gameObject.SetActive(false);
-        Vector3 pos = new Vector3(-46.6f, 17.11f, -15f);
-        gameObject.transform.position = pos;
-        gameObject.SetActive(true);
-        
-        //StartCoroutine(adit());
+        cageHighlight.SetActive(true);
+        StartCoroutine(Closure());
     }
 
+    IEnumerator Closure()
+    {
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        cageHighlight.SetActive(false);
+        MetalMineprosNconsCanvas.SetActive(true);
+    }
 }
