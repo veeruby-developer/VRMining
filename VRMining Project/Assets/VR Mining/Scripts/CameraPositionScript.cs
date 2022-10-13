@@ -58,26 +58,26 @@ public class CameraPositionScript : MonoBehaviour
         orebodyHighlight.SetActive(false);
 
         // Underground Metal Mine
-        cageHighlight = GameObject.Find("cage");
-        cageHighlight.SetActive(false);
+        //cageHighlight = GameObject.Find("cage");
+        //cageHighlight.SetActive(false);
 
-        aditHighlight = GameObject.Find("adit");
-        aditHighlight.SetActive(false);
+        //aditHighlight = GameObject.Find("adit");
+        //aditHighlight.SetActive(false);
 
-        backfillHighlight = GameObject.Find("backfill");
-        backfillHighlight.SetActive(false);
+        //backfillHighlight = GameObject.Find("Rusted_Pipe");
+        //backfillHighlight.SetActive(false);
 
-        depositHighlight = GameObject.Find("deposit");
-        depositHighlight.SetActive(false);
+        //depositHighlight = GameObject.Find("deposit");
+        //depositHighlight.SetActive(false);
 
-        explosiveHighlight = GameObject.Find("explosive");
-        explosiveHighlight.SetActive(false);
+        //explosiveHighlight = GameObject.Find("explosive");
+        //explosiveHighlight.SetActive(false);
 
-        trolleyHighlight = GameObject.Find("trolley");
-        trolleyHighlight.SetActive(false);
+        //trolleyHighlight = GameObject.Find("trolley");
+        //trolleyHighlight.SetActive(false);
 
-        minerailwayHighlight = GameObject.Find("minerailway");
-        minerailwayHighlight.SetActive(false);
+        //minerailwayHighlight = GameObject.Find("minerailway");
+        //minerailwayHighlight.SetActive(false);
 
 
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14255287, g: 0.1525625, b: 0.1712417, a: 1}
+  m_IndirectSpecularColor: {r: 0.04541022, g: 0.04541022, b: 0.04541022, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4743,15 +4743,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34b9725813fc14e43bf7171b46887d36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.07252
+      value: -0.1007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34b9725813fc14e43bf7171b46887d36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02574
+      value: -0.02216
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34b9725813fc14e43bf7171b46887d36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.00692
+      value: 0.0034
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34b9725813fc14e43bf7171b46887d36, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9515,15 +9515,15 @@ MonoBehaviour:
     1. Pillars'' need to be left in place to safeguard
     the safety and structure of haulages and drives
 
-    2. Fatalities do occur
-    in open pits, but there are more possibilities for fatal accidents to occur in
-    underground mine
+    2. Fatalities do occur in
+    open pits, but there are more possibilities for fatal accidents to occur in underground
+    mine
 
-    3. Underground mining cost is high per ton of ore, requires
-    ventilation, and more hazardous to workers
+    3. Underground mining cost is high per ton of ore, requires ventilation,
+    and more hazardous to workers
 
-    4. Underground mining is not
-    suited to the exploitation of a low grade.
+    4. Underground mining is not suited to the
+    exploitation of a low grade.
 
 
 '
