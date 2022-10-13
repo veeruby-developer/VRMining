@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8013 MB
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7975 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,65 +15,273 @@ C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61020
+65339
 Successfully changed project path to: C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1649.26 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.62 ms.
+Refreshing native plugins compatible for Editor in 153.43 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ithel/Documents/GitHub/VRMining/VRMining Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6221
+    VRAM:     3987 MB
+    Driver:   30.0.101.1340
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.191535 seconds.
+Registered in 0.004442 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.18 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 113.50 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.566 seconds
+- Completed reload, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6566ms)
-		BeginReloadAssembly (4939ms)
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (4986ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (477ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (543ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.651756 seconds.
+Registered in 0.011951 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ithel\Documents\GitHub\VRMining\VRMining Project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.49 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.76.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4215 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.6 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4630.
+Total: 4.153100 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.108900 ms MarkObjects: 3.637200 ms  DeleteObjects: 0.172600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Materials/Blue.mat
+  artifactKey: Guid(523245b714a28b24893f58c047c61964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Blue.mat using Guid(523245b714a28b24893f58c047c61964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae1c5b2459f4c4ae1f4da1a2860810') in 0.234298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Models/Materials/Skybox.mat
+  artifactKey: Guid(91b0402b4577595429a6257c3b48b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Skybox.mat using Guid(91b0402b4577595429a6257c3b48b08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee116f3bc778a53b30d552d6cf9e44d8') in 0.246442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Models/Materials/typeBlinn.mat
+  artifactKey: Guid(05ba8fc614472d04cb462174e94e4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/typeBlinn.mat using Guid(05ba8fc614472d04cb462174e94e4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3132b38588e49814a32ec518521f8a4') in 0.038393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Models/Materials/Transparent.mat
+  artifactKey: Guid(8437f2a3c2a115e478cdcd210e7e5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Materials/Transparent.mat using Guid(8437f2a3c2a115e478cdcd210e7e5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d34a222996652ba352dd1101c671c3') in 0.043651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.275229 seconds.
+  path: Assets/Models/Texture/Cave_Text/Image_0.jpg
+  artifactKey: Guid(0086ac7ea9750a34eac20b379f23abe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Cave_Text/Image_0.jpg using Guid(0086ac7ea9750a34eac20b379f23abe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ab66ff93d045bc711f383ef9a795c3') in 0.083552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Models/Texture/Cave_Text/Image_3.jpg
+  artifactKey: Guid(6fbb1f600e623ed4e9ecbf31fb5e1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Cave_Text/Image_3.jpg using Guid(6fbb1f600e623ed4e9ecbf31fb5e1203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1387689f2535b34dfe6d4d7349a483') in 0.039034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Models/Texture/Cave_Text
+  artifactKey: Guid(9041f3369fa82fb4983345a56b9c79a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Cave_Text using Guid(9041f3369fa82fb4983345a56b9c79a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27590e294cd2005fe80860b08c0aabd2') in 0.009347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Models/Texture/Cave_Text/Image_2.jpg
+  artifactKey: Guid(3f816f612db968941995724299c11979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Cave_Text/Image_2.jpg using Guid(3f816f612db968941995724299c11979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112fd25fd469d1d7119d7ea678729521') in 0.042304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Models/Texture/Cave_Text/Image_1.jpg
+  artifactKey: Guid(b6c7a7fd85a5352469e2bbb5bd762324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Cave_Text/Image_1.jpg using Guid(b6c7a7fd85a5352469e2bbb5bd762324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ca05e595905fa88481c0ce84b32cc') in 0.040023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.048819 seconds.
+  path: Assets/Models/UnderGround_Mining_Area.fbx
+  artifactKey: Guid(7eeb5c7110b577147938a529169743c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/UnderGround_Mining_Area.fbx using Guid(7eeb5c7110b577147938a529169743c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ef6a7d78bf12e6395f247103fed36d') in 0.856672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.898867 seconds.
+  path: Assets/Models/Underground mining cave
+  artifactKey: Guid(2fcea07061790704d96ad4998c4fec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave using Guid(2fcea07061790704d96ad4998c4fec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc808279bcd55a3eab47cac2c31ae46a') in 0.012271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024095 seconds.
+  path: Assets/Models/Underground mining cave/Detonator.mat
+  artifactKey: Guid(0f6cd86ae339e504b87972370abfe98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/Detonator.mat using Guid(0f6cd86ae339e504b87972370abfe98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f9834555cff1e2546322beff7f0d4d') in 0.024636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Models/Underground mining cave/MineCart_Mat.mat
+  artifactKey: Guid(3922e403c9e8ded4c87349d004d2351a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/MineCart_Mat.mat using Guid(3922e403c9e8ded4c87349d004d2351a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac94a6338f4db5fcf60e2c6694b3e7') in 0.035632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Models/Underground mining cave/Material_0.mat
+  artifactKey: Guid(098cd9200c8c144458b6d3d70085c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/Material_0.mat using Guid(098cd9200c8c144458b6d3d70085c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fa6ba5b85c51be1e41dff092e38b4') in 0.034335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Models/Underground mining cave/pipes.002.mat
+  artifactKey: Guid(9cd2606a0af0e3c4cb908316fb6005cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/pipes.002.mat using Guid(9cd2606a0af0e3c4cb908316fb6005cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c879b356dc0e7e562bc678ca79c37105') in 0.031802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Models/Underground mining cave/KannonzakiBatterySite_u0_v1.mat
+  artifactKey: Guid(c546cca6861a4bc48974952e1ad4f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/KannonzakiBatterySite_u0_v1.mat using Guid(c546cca6861a4bc48974952e1ad4f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef145974360d0389db2e12e10eade358') in 0.038653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Models/Underground mining cave/KannonzakiBatterySite_u0_v0.mat
+  artifactKey: Guid(0c76fe0e7b97e6540bd3eb37cdb6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/KannonzakiBatterySite_u0_v0.mat using Guid(0c76fe0e7b97e6540bd3eb37cdb6407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cc4eee19803f62c48957cca67bb876') in 0.037598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Models/Underground mining cave/smallrocks.mat
+  artifactKey: Guid(2edbab4f1249e424badbc91096b943ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/smallrocks.mat using Guid(2edbab4f1249e424badbc91096b943ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f334aa8f486dca7de571510686c024') in 0.037027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Models/Underground mining cave/KannonzakiBatterySite_u1_v1.mat
+  artifactKey: Guid(300409a4cd5981743933489104ce86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/KannonzakiBatterySite_u1_v1.mat using Guid(300409a4cd5981743933489104ce86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e446fdf31b628020c3d5ff5f68775711') in 0.034490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/Underground mining cave/None.mat
+  artifactKey: Guid(128944e883cee824aa366bb6b56e4a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/None.mat using Guid(128944e883cee824aa366bb6b56e4a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1717ac373fb00c22ec159beb1d0ede6e') in 0.036704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Models/Underground mining cave/KannonzakiBatterySite_u1_v0.mat
+  artifactKey: Guid(323e5925360e48b4ca857f545aa80d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/KannonzakiBatterySite_u1_v0.mat using Guid(323e5925360e48b4ca857f545aa80d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e11afe873c9071383a41e71c2920b5') in 0.034208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Models/Underground mining cave/TrainTrack_Mat.mat
+  artifactKey: Guid(130ade8ad97bc60419d364b6def713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Underground mining cave/TrainTrack_Mat.mat using Guid(130ade8ad97bc60419d364b6def713ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99d6f9c9a27df24285f7256d37e23f6') in 0.038858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.734385 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa67f7aafba014bdcc74449d8eba51d0') in 0.014163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.584363 seconds.
+  path: Assets/Models/Texture/Materials
+  artifactKey: Guid(3dc0f5049f60fab42bfab03b63bac3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Texture/Materials using Guid(3dc0f5049f60fab42bfab03b63bac3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb4093ffaa159f5945125535593ed7b') in 0.003137 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
