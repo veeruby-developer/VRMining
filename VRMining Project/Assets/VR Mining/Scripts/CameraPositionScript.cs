@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraPositionScript : MonoBehaviour
 {
@@ -54,6 +55,18 @@ public class CameraPositionScript : MonoBehaviour
         orebodyHighlight = GameObject.Find("Orebody");
         orebodyHighlight.SetActive(false);
     }
+    void AudioChange()
+    {
+
+        audioSource.clip = clips[clipIndex];
+        clipIndex = clipIndex + 1;
+    }
+
+    //SceneChange Method
+    public void SceneChange(string scene)
+    {
+        SceneManager.LoadScene(scene);
+    }
 
     //Setting up the position of player in front of cave
     public void CaveFrontPos()
@@ -89,12 +102,7 @@ public class CameraPositionScript : MonoBehaviour
     }
     
     //Change the audio wrt highlights descriptions
-    void AudioChange()
-    {
-        
-        audioSource.clip = clips[clipIndex];
-        clipIndex = clipIndex + 1;
-    }
+    
 
     //Disabling the Welcome panel
     IEnumerator WelcomeCanvasOff()

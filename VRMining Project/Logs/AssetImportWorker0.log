@@ -151,3 +151,100 @@ Received Import Request.
   path: Assets/VR Mining/Models/Underground Metal Mining/Texture
   artifactKey: Guid(fc7eda32627d1f94cbc841647de54623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/VR Mining/Models/Underground Metal Mining/Texture using Guid(fc7eda32627d1f94cbc841647de54623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae83d820293c243ebbc9f4b8cdbb930b') in 0.008123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 820.932812 seconds.
+  path: Assets/VR Mining/Scripts/CameraPositionScript.cs
+  artifactKey: Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scripts/CameraPositionScript.cs using Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779ff61d77325fbe22bbe7f972716c5c') in 0.035660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.492675 seconds.
+  path: Assets/VR Mining/Scripts/CameraPositionScript.cs
+  artifactKey: Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scripts/CameraPositionScript.cs using Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5abaed25d77f528276eeebe11e6eb3c') in 0.003551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.080123 seconds.
+  path: Assets/VR Mining/Scripts/CameraPositionScript.cs
+  artifactKey: Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scripts/CameraPositionScript.cs using Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2f9647ce83a2725d910d0c87dc8e8') in 0.002374 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ithel\Documents\GitHub\VRMining\VRMining Project\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (460ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (187ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (275ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 171.1 MB.
+System memory in use after: 171.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4778.
+Total: 3.191700 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.231000 ms MarkObjects: 2.614500 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.210629 seconds.
+  path: Assets/VR Mining/Scenes/OpenCastMining.unity
+  artifactKey: Guid(ee6b1a559dec05f4faa2008e082485e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scenes/OpenCastMining.unity using Guid(ee6b1a559dec05f4faa2008e082485e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c6daf53687942f9997cfab5d38d371') in 0.007540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.833413 seconds.
+  path: Assets/VR Mining/Scenes/OpenCastMining 1.unity
+  artifactKey: Guid(a6aad95772751ce4e806d23772879caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scenes/OpenCastMining 1.unity using Guid(a6aad95772751ce4e806d23772879caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c654a6c14ac7e34b4870547126f458') in 0.006359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.379544 seconds.
+  path: Assets/VR Mining/Scenes/Dumper_Tipper.unity
+  artifactKey: Guid(a6aad95772751ce4e806d23772879caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/Scenes/Dumper_Tipper.unity using Guid(a6aad95772751ce4e806d23772879caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4def6797af63381a4c56fb5874f292c1') in 0.006387 seconds 
