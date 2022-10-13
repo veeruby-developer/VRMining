@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class CameraPositionScript : MonoBehaviour
 {
     public GameObject welcomeCanvas,prosNconsCanvas;
+    public GameObject MetalMinewelcomeCanvas, MetalMineprosNconsCanvas; //Underground Metal Mine 
     public AudioSource audioSource;
     GameObject benchHighlight;
     GameObject crestHighlight,toeHighlight,benchfaceHighlight,benchfloorHighlight,haulHighlight,rampHighlight,orebodyHighlight;
+    GameObject cageHighlight,aditHighlight,backfillHighlight,depositHighlight,explosiveHighlight,trolleyHighlight,minerailwayHighlight; // Underground Metal Mine 
     AudioSource defaultAudioSource;
     AudioClip[] clips = new AudioClip[10];
     public AudioClip defaultClip;
@@ -54,7 +56,32 @@ public class CameraPositionScript : MonoBehaviour
 
         orebodyHighlight = GameObject.Find("Orebody");
         orebodyHighlight.SetActive(false);
+
+        // Underground Metal Mine
+        cageHighlight = GameObject.Find("cage");
+        cageHighlight.SetActive(false);
+
+        aditHighlight = GameObject.Find("adit");
+        aditHighlight.SetActive(false);
+
+        backfillHighlight = GameObject.Find("backfill");
+        backfillHighlight.SetActive(false);
+
+        depositHighlight = GameObject.Find("deposit");
+        depositHighlight.SetActive(false);
+
+        explosiveHighlight = GameObject.Find("explosive");
+        explosiveHighlight.SetActive(false);
+
+        trolleyHighlight = GameObject.Find("trolley");
+        trolleyHighlight.SetActive(false);
+
+        minerailwayHighlight = GameObject.Find("minerailway");
+        minerailwayHighlight.SetActive(false);
+
+
     }
+
     void AudioChange()
     {
 
@@ -201,4 +228,41 @@ public class CameraPositionScript : MonoBehaviour
         orebodyHighlight.SetActive(false);
         prosNconsCanvas.SetActive(true);
     }
+
+    //Underground Metal Mine
+     public void MetalMineCaveFrontPos()
+    {
+    
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(48.89f, -10.39f, -24.58f);
+        gameObject.transform.position = pos;
+        gameObject.transform.Rotate(0, 106.88f, 0);
+        gameObject.SetActive(true);
+        StartCoroutine(MetalMineWelcomeCanvasOff());
+        
+    }
+
+    IEnumerator MetalMineWelcomeCanvasOff()
+    {
+        yield return new WaitForSeconds(5);
+        welcomeCanvas.SetActive(false);
+        StartCoroutine(Cage());
+    }
+
+    IEnumerator Cage()
+    {
+        Debug.Log("Cage");
+        yield return new WaitForSeconds(5);
+        AudioChange();
+        audioSource.Play();
+        benchHighlight.SetActive(true);
+        //Debug.Log("b");
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(-46.6f, 17.11f, -15f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        
+        //StartCoroutine(adit());
+    }
+
 }
