@@ -220,3 +220,15 @@ Received Import Request.
   path: Assets/VR Mining/Scripts/CameraPositionScript.cs
   artifactKey: Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/VR Mining/Scripts/CameraPositionScript.cs using Guid(4738286407300c840a06435c91d86124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1038204fba2aec445f2dca7cc6d3964') in 0.040401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2520.807324 seconds.
+  path: Assets/VR Mining/UI/Minerals.jpg
+  artifactKey: Guid(58e01abec3558e846ba5affa26ca1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Minerals.jpg using Guid(58e01abec3558e846ba5affa26ca1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d21a4def77e7599aa8dcd070b1dcbf5') in 0.015710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.399692 seconds.
+  path: Assets/VR Mining/UI/Minerals.jpg
+  artifactKey: Guid(58e01abec3558e846ba5affa26ca1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Minerals.jpg using Guid(58e01abec3558e846ba5affa26ca1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6ace19d4b0c6d6d0fae3945882a1bb') in 0.012657 seconds 
