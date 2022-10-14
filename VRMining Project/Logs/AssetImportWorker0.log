@@ -418,3 +418,141 @@ Received Import Request.
   path: Assets/VR Mining/UI/longwall.png
   artifactKey: Guid(26ccc7944a89daa49ac288629a212f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/VR Mining/UI/longwall.png using Guid(26ccc7944a89daa49ac288629a212f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eedda599be049b12ac77f1094e6ef45') in 0.023176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 620.826728 seconds.
+  path: Assets/VR Mining/UI/Phases in Mining.jpg
+  artifactKey: Guid(f9db1953f0d12f047b5af547fc080eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Phases in Mining.jpg using Guid(f9db1953f0d12f047b5af547fc080eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3597866a54c577ae907792effc9019f') in 0.015045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.366884 seconds.
+  path: Assets/VR Mining/UI/Phases in Mining.jpg
+  artifactKey: Guid(f9db1953f0d12f047b5af547fc080eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Phases in Mining.jpg using Guid(f9db1953f0d12f047b5af547fc080eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e604ecd3da2d6d270e5b54742d90c6c') in 0.021493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 443.398199 seconds.
+  path: Assets/VR Mining/UI/1 (2).jpg
+  artifactKey: Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/1 (2).jpg using Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7734102b40949d5e0078424087e7dd0b') in 0.014261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.087653 seconds.
+  path: Assets/VR Mining/UI/1.jpg
+  artifactKey: Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/1.jpg using Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e64a78c3a57f03b9c4c63f970fad74e') in 0.010108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.202925 seconds.
+  path: Assets/VR Mining/UI/1.jpg
+  artifactKey: Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/1.jpg using Guid(51ccd062e58b7cd4ba0822e5d2e7505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e02f57f35aa26deaefee1e2e35c898e') in 0.015980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.127391 seconds.
+  path: Assets/VR Mining/UI/2.png
+  artifactKey: Guid(2e32f3730cc7f524fbd37faaa43ff8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/2.png using Guid(2e32f3730cc7f524fbd37faaa43ff8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa87c541d1d097e7739f9ddf75032f1f') in 0.010940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.778373 seconds.
+  path: Assets/VR Mining/UI/2.png
+  artifactKey: Guid(2e32f3730cc7f524fbd37faaa43ff8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/2.png using Guid(2e32f3730cc7f524fbd37faaa43ff8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8111571934ac792de90687c760bd553') in 0.015964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.920679 seconds.
+  path: Assets/VR Mining/UI/4.png
+  artifactKey: Guid(73c11e9dbecba3f4ba14970326f3c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/4.png using Guid(73c11e9dbecba3f4ba14970326f3c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7978d8534939af90a2279a87be465298') in 0.011533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.357516 seconds.
+  path: Assets/VR Mining/UI/3.png
+  artifactKey: Guid(c921a832db03e104c80a4dd28d4f1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/3.png using Guid(c921a832db03e104c80a4dd28d4f1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c12e087ccc93b54c976188831ae43f0') in 0.011559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.670276 seconds.
+  path: Assets/VR Mining/UI/3.png
+  artifactKey: Guid(c921a832db03e104c80a4dd28d4f1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/3.png using Guid(c921a832db03e104c80a4dd28d4f1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62d45eb5f5c260fdf559780f2dfbad9') in 0.012197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.891484 seconds.
+  path: Assets/VR Mining/UI/4.png
+  artifactKey: Guid(73c11e9dbecba3f4ba14970326f3c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/4.png using Guid(73c11e9dbecba3f4ba14970326f3c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c163f190e5c4748965e896b9f524d8') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.214814 seconds.
+  path: Assets/VR Mining/UI/6.png
+  artifactKey: Guid(6f0ae0a64a41bef45a0c017d5e5b01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/6.png using Guid(6f0ae0a64a41bef45a0c017d5e5b01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79c309c79cfaf9047f456709b0e6558') in 0.013287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.602440 seconds.
+  path: Assets/VR Mining/UI/5.png
+  artifactKey: Guid(783067c04b404fa45ba4be4aae2682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/5.png using Guid(783067c04b404fa45ba4be4aae2682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743418753f128f60af68086a5f76ffc3') in 0.012983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.115402 seconds.
+  path: Assets/VR Mining/UI/5.png
+  artifactKey: Guid(783067c04b404fa45ba4be4aae2682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/5.png using Guid(783067c04b404fa45ba4be4aae2682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87249c97aa0d464f03fc0b480f9a6f29') in 0.015154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.724748 seconds.
+  path: Assets/VR Mining/UI/6.png
+  artifactKey: Guid(6f0ae0a64a41bef45a0c017d5e5b01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/6.png using Guid(6f0ae0a64a41bef45a0c017d5e5b01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d03a2fe15c4e0b32900dd9f6040b276') in 0.015151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.265179 seconds.
+  path: Assets/VR Mining/UI/8.png
+  artifactKey: Guid(319b3cf42583b12479f67d78a2e94aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/8.png using Guid(319b3cf42583b12479f67d78a2e94aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa786e20bcc2888c9f9d1fb91c32657a') in 0.012830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.468584 seconds.
+  path: Assets/VR Mining/UI/7.png
+  artifactKey: Guid(53c84fc326ebe364bbc829082d05a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/7.png using Guid(53c84fc326ebe364bbc829082d05a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132a63319fe3f2d77f5e8ddccb56cd78') in 0.013360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.411643 seconds.
+  path: Assets/VR Mining/UI/7.png
+  artifactKey: Guid(53c84fc326ebe364bbc829082d05a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/7.png using Guid(53c84fc326ebe364bbc829082d05a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d86269befdcf6edcbe6e58f95ec255d') in 0.013399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.792040 seconds.
+  path: Assets/VR Mining/UI/8.png
+  artifactKey: Guid(319b3cf42583b12479f67d78a2e94aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/8.png using Guid(319b3cf42583b12479f67d78a2e94aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49e78630ceaa0e4fe129377a24221d2') in 0.019966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1035.983003 seconds.
+  path: Assets/VR Mining/UI/Surface mining.png
+  artifactKey: Guid(1f86e0661cf315e4f994c5cd0b104e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Surface mining.png using Guid(1f86e0661cf315e4f994c5cd0b104e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d5a8aa36104ad9d048302567c2b32f') in 0.014766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.202719 seconds.
+  path: Assets/VR Mining/UI/Surface mining.png
+  artifactKey: Guid(1f86e0661cf315e4f994c5cd0b104e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Surface mining.png using Guid(1f86e0661cf315e4f994c5cd0b104e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbff6940c0e1d64cb2b6dd0367e70cfd') in 0.018322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.280743 seconds.
+  path: Assets/VR Mining/UI/Underground mining.png
+  artifactKey: Guid(b35c71d487ca4ad49885d7e588178d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Underground mining.png using Guid(b35c71d487ca4ad49885d7e588178d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad8f1607b4582da0392569cb9f8ff05') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.424762 seconds.
+  path: Assets/VR Mining/UI/Underground mining.png
+  artifactKey: Guid(b35c71d487ca4ad49885d7e588178d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Mining/UI/Underground mining.png using Guid(b35c71d487ca4ad49885d7e588178d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429d26c67e68f063fff6e560ad5f9e32') in 0.013298 seconds 
