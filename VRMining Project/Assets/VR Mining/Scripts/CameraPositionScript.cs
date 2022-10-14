@@ -5,16 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class CameraPositionScript : MonoBehaviour
 {
-    public GameObject welcomeCanvas,prosNconsCanvas;
-    public GameObject MetalMinewelcomeCanvas, MetalMineprosNconsCanvas; //Underground Metal Mine 
+    //Common Import
     public AudioSource audioSource;
-    GameObject benchHighlight;
-    GameObject crestHighlight,toeHighlight,benchfaceHighlight,benchfloorHighlight,haulHighlight,rampHighlight,orebodyHighlight;
-    GameObject cageHighlight,aditHighlight,backfillHighlight,depositHighlight,explosiveHighlight,trolleyHighlight,minerailwayHighlight; // Underground Metal Mine 
     AudioSource defaultAudioSource;
     AudioClip[] clips = new AudioClip[10];
     public AudioClip defaultClip;
     int clipIndex;
+
+    //Opencast Mine
+    public GameObject welcomeCanvas,prosNconsCanvas;
+    GameObject benchHighlight;
+    GameObject crestHighlight,toeHighlight,benchfaceHighlight,benchfloorHighlight,haulHighlight,rampHighlight,orebodyHighlight;
+    
+
+    //Underground Metal Mine 
+    public GameObject MetalMinewelcomeCanvas, MetalMineprosNconsCanvas; 
+    GameObject aditHighlight; 
+    
+
 
     // Assigning declared objects
     void Start()
@@ -22,7 +30,7 @@ public class CameraPositionScript : MonoBehaviour
         for(int i = 0; i<=9; i++)
         {
             
-                clips[i] = Resources.Load<AudioClip>("Audio Files/Walkthroughs/Opencast Mine/Opencast_" + i);
+            clips[i] = Resources.Load<AudioClip>("Audio Files/Walkthroughs/Opencast Mine/Opencast_" + i);
             Debug.Log(clips[i].name);
 
         }
@@ -58,30 +66,12 @@ public class CameraPositionScript : MonoBehaviour
         orebodyHighlight.SetActive(false);
 
         // Underground Metal Mine
-        //cageHighlight = GameObject.Find("cage");
-        //cageHighlight.SetActive(false);
-
-        //aditHighlight = GameObject.Find("adit");
-        //aditHighlight.SetActive(false);
-
-        //backfillHighlight = GameObject.Find("Rusted_Pipe");
-        //backfillHighlight.SetActive(false);
-
-        //depositHighlight = GameObject.Find("deposit");
-        //depositHighlight.SetActive(false);
-
-        //explosiveHighlight = GameObject.Find("explosive");
-        //explosiveHighlight.SetActive(false);
-
-        //trolleyHighlight = GameObject.Find("trolley");
-        //trolleyHighlight.SetActive(false);
-
-        //minerailwayHighlight = GameObject.Find("minerailway");
-        //minerailwayHighlight.SetActive(false);
+        aditHighlight = GameObject.FindGameObjectWithTag("Adit Highlight");
+        aditHighlight.SetActive(false);
 
 
     }
-
+    //Change the audio wrt highlights descriptions
     void AudioChange()
     {
 
@@ -128,7 +118,7 @@ public class CameraPositionScript : MonoBehaviour
         
     }
     
-    //Change the audio wrt highlights descriptions
+    
     
 
     //Disabling the Welcome panel
@@ -232,26 +222,34 @@ public class CameraPositionScript : MonoBehaviour
     //Underground Metal Mine
      public void MetalMineCaveFrontPos()
     {
-      
+        MetalMinewelcomeCanvas.SetActive(true);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(39, -11f, -17);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+
         StartCoroutine(MetalMineWelcomeCanvasOff());
         
     }
 
     IEnumerator MetalMineWelcomeCanvasOff()
     {
-        yield return new WaitForSeconds(10);
+        AudioChange();
+        audioSource.Play();
+        yield return new WaitForSeconds(5);
         MetalMinewelcomeCanvas.SetActive(false);
         StartCoroutine(Adit());
     }
 
     IEnumerator Adit()
     {
-        yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         aditHighlight.SetActive(true);
+        Debug.Log("Adit");
+        yield return new WaitForSeconds(5);
         gameObject.SetActive(false);
-        Vector3 pos = new Vector3(54.77f, -12.68f, -27.4f);
+        Vector3 pos = new Vector3(51, -11f, -25);
         gameObject.transform.position = pos;
         gameObject.SetActive(true);
         StartCoroutine(MineRailway());
@@ -259,27 +257,33 @@ public class CameraPositionScript : MonoBehaviour
 
      IEnumerator MineRailway()
     {
-        aditHighlight.SetActive(false);
-        Debug.Log("MineRailway");
-        yield return new WaitForSeconds(5);
+        
+        Debug.Log("track");
+        aditHighlight.SetActive(false);         
         AudioChange();
         audioSource.Play();
-        minerailwayHighlight.SetActive(true);
-        //Debug.Log("b");
+        Material track = Resources.Load<Material>("Highlight Materials/Underground MetalMine/TrackHighlight");
+        track.EnableKeyword("_EMISSION");
+        yield return new WaitForSeconds(5);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(65f, -11f, -33f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
         StartCoroutine( BackFill());
     }
 
     IEnumerator BackFill()
     {
-        minerailwayHighlight.SetActive(false);
         Debug.Log("BackFill");
-        yield return new WaitForSeconds(5);
+        Material track = Resources.Load<Material>("Highlight Materials/Underground MetalMine/TrackHighlight");
+        track.DisableKeyword("_EMISSION");
+        Material backfill = Resources.Load<Material>("Highlight Materials/Underground MetalMine/Backfill Highlight");
+        backfill.EnableKeyword("_EMISSION");
         AudioChange();
         audioSource.Play();
-        backfillHighlight.SetActive(true);
-        //Debug.Log("b");
+        yield return new WaitForSeconds(5);
         gameObject.SetActive(false);
-        Vector3 pos = new Vector3(87.17f, -12.36f, -46.79f);
+        Vector3 pos = new Vector3(87.17f, -11f, -46.79f);
         gameObject.transform.position = pos;
         gameObject.SetActive(true);
         StartCoroutine(Trolley());
@@ -287,37 +291,49 @@ public class CameraPositionScript : MonoBehaviour
 
     IEnumerator Trolley()
     {
-        backfillHighlight.SetActive(false);
-        Debug.Log("Trolley");
-        yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        trolleyHighlight.SetActive(true);
+       
+        Debug.Log("Trolley");
+        Material backfill = Resources.Load<Material>("Highlight Materials/Underground MetalMine/Backfill Highlight");
+        backfill.DisableKeyword("_EMISSION");
+        Material trolley = Resources.Load<Material>("Highlight Materials/Underground MetalMine/TrolleyHighlight");
+        trolley.EnableKeyword("_EMISSION");
+        
+        yield return new WaitForSeconds(5);
         StartCoroutine(Explosive());
     }
 
     IEnumerator Explosive()
     {
-        trolleyHighlight.SetActive(false);
-        Debug.Log("Explosive");
-        yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        explosiveHighlight.SetActive(true);
+        Material explore = Resources.Load<Material>("Highlight Materials/Underground MetalMine/ExploreHighlight");
+        explore.EnableKeyword("_EMISSION");
+        Material explore1 = Resources.Load<Material>("Highlight Materials/Underground MetalMine/ExploreDynamiteHighlight");
+        explore1.EnableKeyword("_EMISSION");
+        Material trolley = Resources.Load<Material>("Highlight Materials/Underground MetalMine/TrolleyHighlight");
+        trolley.DisableKeyword("_EMISSION");
+        Debug.Log("Explosive");
+        yield return new WaitForSeconds(5);
+        
         StartCoroutine(Deposit());
     }
 
      IEnumerator Deposit()
     {
-        explosiveHighlight.SetActive(false);
-        Debug.Log("Deposit");
-        yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        depositHighlight.SetActive(true);
-        //Debug.Log("b");
+        Material explore = Resources.Load<Material>("Highlight Materials/Underground MetalMine/ExploreHighlight");
+        explore.DisableKeyword("_EMISSION");
+        Material explore1 = Resources.Load<Material>("Highlight Materials/Underground MetalMine/ExploreDynamiteHighlight");
+        explore1.DisableKeyword("_EMISSION");
+        Material deposit = Resources.Load<Material>("Highlight Materials/Underground MetalMine/DepositHighlight");
+        deposit.EnableKeyword("_EMISSION");
+
+        yield return new WaitForSeconds(5);
         gameObject.SetActive(false);
-        Vector3 pos = new Vector3(-97.2f, -12.1f, -53.6f);
+        Vector3 pos = new Vector3(95, -11f, -51f);
         gameObject.transform.position = pos;
         gameObject.SetActive(true);
         StartCoroutine(Cage());
@@ -326,21 +342,25 @@ public class CameraPositionScript : MonoBehaviour
 
     IEnumerator Cage()
     {
-        depositHighlight.SetActive(false);
-        Debug.Log("Cage");
-        yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        cageHighlight.SetActive(true);
+        Material deposit = Resources.Load<Material>("Highlight Materials/Underground MetalMine/DepositHighlight");
+        deposit.DisableKeyword("_EMISSION");
+        Material cage = Resources.Load<Material>("Highlight Materials/Underground MetalMine/CageHighlight");
+        cage.EnableKeyword("_EMISSION");
+        Debug.Log("Cage");
+        yield return new WaitForSeconds(5);
         StartCoroutine(Closure());
     }
 
     IEnumerator Closure()
     {
+        Material cage = Resources.Load<Material>("Highlight Materials/Underground MetalMine/CageHighlight");
+        cage.DisableKeyword("_EMISSION");
         yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        cageHighlight.SetActive(false);
+        MetalMineCaveFrontPos();
         MetalMineprosNconsCanvas.SetActive(true);
     }
 }
