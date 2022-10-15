@@ -4893,7 +4893,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1113939198}
         m_TargetAssemblyTypeName: CameraPositionScript, Assembly-CSharp
-        m_MethodName: MetalMineCaveFrontPos
+        m_MethodName: CaveFrontPos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

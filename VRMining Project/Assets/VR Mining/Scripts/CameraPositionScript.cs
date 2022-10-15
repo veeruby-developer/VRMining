@@ -20,9 +20,11 @@ public class CameraPositionScript : MonoBehaviour
 
     //Underground Metal Mine 
     public GameObject MetalMinewelcomeCanvas, MetalMineprosNconsCanvas; 
-    GameObject aditHighlight; 
-    
+    GameObject aditHighlight;
 
+    //Underground Coal Mine
+    public GameObject coalMineWelcomeCanvas, coalMineProsNconsCanvas;
+   
 
     // Assigning declared objects
     void Start()
@@ -69,6 +71,7 @@ public class CameraPositionScript : MonoBehaviour
         aditHighlight = GameObject.FindGameObjectWithTag("Adit Highlight");
         aditHighlight.SetActive(false);
 
+        
 
     }
     //Change the audio wrt highlights descriptions
@@ -217,11 +220,14 @@ public class CameraPositionScript : MonoBehaviour
         audioSource.Play();
         orebodyHighlight.SetActive(false);
         prosNconsCanvas.SetActive(true);
+
     }
 
     //Underground Metal Mine
      public void MetalMineCaveFrontPos()
     {
+        clipIndex = 0;
+        audioSource.Play();
         MetalMinewelcomeCanvas.SetActive(true);
         gameObject.SetActive(false);
         Vector3 pos = new Vector3(39, -11f, -17);
@@ -360,7 +366,146 @@ public class CameraPositionScript : MonoBehaviour
         yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        MetalMineCaveFrontPos();
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(39, -11f, -17);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
         MetalMineprosNconsCanvas.SetActive(true);
+    }
+
+    //Underground Coal Mine
+
+    public void UndergroundCoalMineEntry()
+    {
+        clipIndex = 0;
+        audioSource.Play();
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -24f, -7);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        coalMineWelcomeCanvas.SetActive(true);
+        gameObject.SetActive(false);
+        gameObject.transform.Rotate(0f, 0, 0);
+        gameObject.SetActive(true);
+        //gameObject.GetComponent<OVRPlayerController>().enabled = false;
+        StartCoroutine(CoalMineWelcomeCanvasOff());
+    }
+    IEnumerator CoalMineWelcomeCanvasOff()
+    {
+        yield return new WaitForSeconds(15);
+        coalMineWelcomeCanvas.SetActive(false);
+        StartCoroutine(CoalMineEntry());
+    }
+    IEnumerator CoalMineEntry()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material coalMine = Resources.Load<Material>("Highlight Materials/Underground CoalMine/CoalMineEntryHighlight");
+        coalMine.EnableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -25f, 2.1f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(CoalMineTrack());
+    }
+
+    IEnumerator CoalMineTrack()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material coalMine = Resources.Load<Material>("Highlight Materials/Underground CoalMine/CoalMineEntryHighlight");
+        coalMine.DisableKeyword("_EMISSION");
+        Material track = Resources.Load<Material>("Highlight Materials/Underground CoalMine/TrackHighlight 1");
+        track.EnableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -25f, 5.3f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(CoalMineTrolley());
+    }
+
+    IEnumerator CoalMineTrolley()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material trolley = Resources.Load<Material>("Highlight Materials/Underground CoalMine/TrolleyHighlight 1");
+        trolley.EnableKeyword("_EMISSION");
+        Material track = Resources.Load<Material>("Highlight Materials/Underground CoalMine/TrackHighlight 1");
+        track.DisableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -25f, 14.5f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(CoalMineRoofBolt());
+    }
+    IEnumerator CoalMineRoofBolt()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material trolley = Resources.Load<Material>("Highlight Materials/Underground CoalMine/TrolleyHighlight 1");
+        trolley.DisableKeyword("_EMISSION");
+        Material bolt = Resources.Load<Material>("Highlight Materials/Underground CoalMine/RoofBoltHighlight");
+        bolt.EnableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -25f, 22.7f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(CoalMinePillar());
+    }
+    IEnumerator CoalMinePillar()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material pillars = Resources.Load<Material>("Highlight Materials/Underground CoalMine/smallrocksHighlight");
+        pillars.EnableKeyword("_EMISSION");
+        Material bolt = Resources.Load<Material>("Highlight Materials/Underground CoalMine/RoofBoltHighlight");
+        bolt.DisableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        //gameObject.SetActive(false);
+        //Vector3 pos = new Vector3(116, -25f, 27.9f);
+        //gameObject.transform.position = pos;
+        //gameObject.SetActive(true);
+        StartCoroutine(CoalMineExplosive());
+    }
+    IEnumerator CoalMineExplosive()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material pillars = Resources.Load<Material>("Highlight Materials/Underground CoalMine/smallrocksHighlight");
+        pillars.DisableKeyword("_EMISSION");
+        Material dynamite = Resources.Load<Material>("Highlight Materials/Underground CoalMine/ExploreDynamiteHighlight 1");
+        dynamite.EnableKeyword("_EMISSION");
+        Material dynamite1 = Resources.Load<Material>("Highlight Materials/Underground CoalMine/ExploreHighlight 1");
+        dynamite1.EnableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -25f, 27.9f);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        StartCoroutine(CoalMineRidingSystem());
+    }
+    IEnumerator CoalMineRidingSystem()
+    {
+        AudioChange();
+        audioSource.Play();
+        Material riding = Resources.Load<Material>("Highlight Materials/Underground CoalMine/RidingHighlight");
+        riding.EnableKeyword("_EMISSION");
+        Material dynamite = Resources.Load<Material>("Highlight Materials/Underground CoalMine/ExploreDynamiteHighlight 1");
+        dynamite.DisableKeyword("_EMISSION");
+        Material dynamite1 = Resources.Load<Material>("Highlight Materials/Underground CoalMine/ExploreHighlight 1");
+        dynamite1.DisableKeyword("_EMISSION");
+        yield return new WaitForSeconds(15);
+
+        gameObject.SetActive(false);
+        Vector3 pos = new Vector3(116, -24f, -7);
+        gameObject.transform.position = pos;
+        gameObject.SetActive(true);
+        coalMineWelcomeCanvas.SetActive(false);
+        coalMineProsNconsCanvas.SetActive(true);
     }
 }

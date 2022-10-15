@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/VR/Scenes/UI.unity
     guid: 1f4d3ae64a10d434db219de8b14348e1
-  - enabled: 1
+  - enabled: 0
     path: Assets/VR Mining/Scenes/OpenCastMining.unity
     guid: ee6b1a559dec05f4faa2008e082485e4
+  - enabled: 0
+    path: Assets/VR Mining/Scenes/Dumper_Tipper.unity
+    guid: a6aad95772751ce4e806d23772879caa
+  - enabled: 1
+    path: Assets/VR Mining/Scenes/Walkthroughs.unity
+    guid: 250619e797c0cd14d926f7d10665a50d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 27d49660cb8405f48a35dbaa4dc592f6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 33280c6704909a449a162adfe0cbff6d, type: 2}
