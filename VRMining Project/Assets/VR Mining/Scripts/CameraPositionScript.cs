@@ -134,6 +134,7 @@ public class CameraPositionScript : MonoBehaviour
     
     //Highlights enable and disable between few seconds delay - Bench,Crest,Toe,BenchFace,BenchFloor,HaulRoad,Ramp,OreBody
     IEnumerator Bench()
+    //public void Bench()
     {
         Debug.Log("bench");
         yield return new WaitForSeconds(5);
@@ -146,79 +147,89 @@ public class CameraPositionScript : MonoBehaviour
         gameObject.transform.position = pos;
         gameObject.SetActive(true);
         
-        StartCoroutine(Crest());
+        //StartCoroutine(Crest());
     }
-    IEnumerator Crest()
+    
+    //IEnumerator Crest()
+    public void Crest()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         benchHighlight.SetActive(false);
         crestHighlight.SetActive(true);
-        StartCoroutine(Toe());
+        //StartCoroutine(Toe());
     }
-    IEnumerator Toe()
+    //IEnumerator Toe()
+    public void Toe()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         crestHighlight.SetActive(false);
         toeHighlight.SetActive(true);
-        StartCoroutine(BenchFace());
+        //StartCoroutine(BenchFace());
     }
-    IEnumerator BenchFace()
+    //IEnumerator BenchFace()
+    public void BenchFace()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         toeHighlight.SetActive(false);
         benchfaceHighlight.SetActive(true);
-        StartCoroutine(BenchFloor());
+        //StartCoroutine(BenchFloor());
     }
-    IEnumerator BenchFloor()
+    //IEnumerator BenchFloor()
+    public void BenchFloor()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         benchfaceHighlight.SetActive(false);
         benchfloorHighlight.SetActive(true);
-        StartCoroutine(HaulRoad());
+        //StartCoroutine(HaulRoad());
     }
-    IEnumerator HaulRoad()
+   // IEnumerator HaulRoad()
+   public void HaulRoad()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         benchfloorHighlight.SetActive(false);
         haulHighlight.SetActive(true);
-        StartCoroutine(Ramp());
+       // StartCoroutine(Ramp());
     }
-    IEnumerator Ramp()
+
+    //IEnumerator Ramp()
+    public void Ramp()
     {
-        yield return new WaitForSeconds(5);
+       // yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
         haulHighlight.SetActive(false);
         rampHighlight.SetActive(true);
         gameObject.transform.Rotate(0, 0, 0);
-        StartCoroutine(OreBody());
+        //StartCoroutine(OreBody());
     }
-    IEnumerator OreBody()
+    //IEnumerator OreBody()
+    public void OreBody()
     {
-        yield return new WaitForSeconds(10);
+       // yield return new WaitForSeconds(10);
         AudioChange();
         audioSource.Play();
         rampHighlight.SetActive(false);
         orebodyHighlight.SetActive(true);
-        StartCoroutine(SumUp());
+       // StartCoroutine(SumUp());
     }
 
-    IEnumerator SumUp()
+    //IEnumerator SumUp()
+    public void SumUp()
     {
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
         AudioChange();
         audioSource.Play();
-        orebodyHighlight.SetActive(false);
+        //orebodyHighlight.SetActive(false);
         prosNconsCanvas.SetActive(true);
 
     }
